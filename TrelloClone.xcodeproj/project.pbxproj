@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		03A1C37529485CDB000A2871 /* TrelloCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C37429485CDB000A2871 /* TrelloCloneApp.swift */; };
-		03A1C37729485CDB000A2871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C37629485CDB000A2871 /* ContentView.swift */; };
 		03A1C37929485CDC000A2871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A1C37829485CDC000A2871 /* Assets.xcassets */; };
 		03A1C37C29485CDC000A2871 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A1C37B29485CDC000A2871 /* Preview Assets.xcassets */; };
 		03A1C38429485D84000A2871 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C38329485D84000A2871 /* Card.swift */; };
 		03A1C38629485E51000A2871 /* BoardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C38529485E51000A2871 /* BoardList.swift */; };
 		03A1C388294888CD000A2871 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C387294888CD000A2871 /* Board.swift */; };
 		03A1C38B2949BEFC000A2871 /* Board+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C38A2949BEFC000A2871 /* Board+Stub.swift */; };
+		03A1C38E2949C2C3000A2871 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C38D2949C2C3000A2871 /* BoardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03A1C37129485CDB000A2871 /* TrelloClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrelloClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A1C37429485CDB000A2871 /* TrelloCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrelloCloneApp.swift; sourceTree = "<group>"; };
-		03A1C37629485CDB000A2871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03A1C37829485CDC000A2871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A1C37B29485CDC000A2871 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03A1C38329485D84000A2871 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		03A1C387294888CD000A2871 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		03A1C3892949BB78000A2871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		03A1C38A2949BEFC000A2871 /* Board+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Board+Stub.swift"; sourceTree = "<group>"; };
+		03A1C38D2949C2C3000A2871 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 			children = (
 				03A1C3892949BB78000A2871 /* Info.plist */,
 				03A1C38229485CED000A2871 /* Models */,
+				03A1C38C2949C2B0000A2871 /* Views */,
 				03A1C37429485CDB000A2871 /* TrelloCloneApp.swift */,
-				03A1C37629485CDB000A2871 /* ContentView.swift */,
 				03A1C37829485CDC000A2871 /* Assets.xcassets */,
 				03A1C37A29485CDC000A2871 /* Preview Content */,
 			);
@@ -87,6 +87,14 @@
 				03A1C38A2949BEFC000A2871 /* Board+Stub.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		03A1C38C2949C2B0000A2871 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03A1C38D2949C2C3000A2871 /* BoardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A1C38E2949C2C3000A2871 /* BoardView.swift in Sources */,
 				03A1C38B2949BEFC000A2871 /* Board+Stub.swift in Sources */,
-				03A1C37729485CDB000A2871 /* ContentView.swift in Sources */,
 				03A1C38429485D84000A2871 /* Card.swift in Sources */,
 				03A1C388294888CD000A2871 /* Board.swift in Sources */,
 				03A1C38629485E51000A2871 /* BoardList.swift in Sources */,
