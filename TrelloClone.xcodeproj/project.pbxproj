@@ -25,6 +25,7 @@
 		03A1C38329485D84000A2871 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		03A1C38529485E51000A2871 /* BoardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardList.swift; sourceTree = "<group>"; };
 		03A1C387294888CD000A2871 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		03A1C3892949BB78000A2871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		03A1C37329485CDB000A2871 /* TrelloClone */ = {
 			isa = PBXGroup;
 			children = (
+				03A1C3892949BB78000A2871 /* Info.plist */,
 				03A1C38229485CED000A2871 /* Models */,
 				03A1C37429485CDB000A2871 /* TrelloCloneApp.swift */,
 				03A1C37629485CDB000A2871 /* ContentView.swift */,
@@ -290,6 +292,7 @@
 				DEVELOPMENT_TEAM = JJ6AWG4D87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrelloClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +322,7 @@
 				DEVELOPMENT_TEAM = JJ6AWG4D87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrelloClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
