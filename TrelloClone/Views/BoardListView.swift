@@ -26,7 +26,8 @@ struct BoardListView: View {
         }
         .padding(.vertical)
         .background(boardListBackgroundColor)
-        .frame(width: 300)
+        // TODO: Find a way to calculate dynamic height of the view (Geometry Reader?)
+        .frame(width: 300, height: 512)
         .cornerRadius(8)
         .foregroundColor(.black)
     }
@@ -57,7 +58,7 @@ struct BoardListView: View {
     private var listView: some View {
         List {
             ForEach(boardList.cards) { card in
-                Text(card.content)
+                CardView(boardList: boardList, card: card)
             }
             .listRowSeparator(.hidden)
             .listRowInsets(.init(top: 4, leading: 8, bottom: 4, trailing: 8))
