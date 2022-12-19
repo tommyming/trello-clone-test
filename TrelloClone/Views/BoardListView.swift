@@ -20,7 +20,7 @@ struct BoardListView: View {
             headerView
             listView
                 .listStyle(.plain)
-                .frame(maxHeight: listHeight)
+//                .frame(maxHeight: listHeight)
             
             Button("+ Add card") {
                 handleAddCard()
@@ -62,15 +62,19 @@ struct BoardListView: View {
         List {
             ForEach(boardList.cards) { card in
                 CardView(boardList: boardList, card: card)
+                    .onDrag {
+                        NSItemProvider(object: card)
+                    }
             }
+            .onMove(perform: boardList.moveCards)
             .listRowSeparator(.hidden)
             .listRowInsets(.init(top: 4, leading: 8, bottom: 4, trailing: 8))
             .listRowBackground(Color.clear)
             /// This does not work in iOS 16, but worked on iOS 15 or before, please be aware.
             /// Maybe is due to `List` type remapping from UITableView
-            .introspectTableView {
-                listHeight = $0.contentSize.height
-            }
+//            .introspectTableView {
+//                listHeight = $0.contentSize.height
+//            }
         }
     }
     
