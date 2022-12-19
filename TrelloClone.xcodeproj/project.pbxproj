@@ -16,6 +16,7 @@
 		03A1C38B2949BEFC000A2871 /* Board+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C38A2949BEFC000A2871 /* Board+Stub.swift */; };
 		03A1C38E2949C2C3000A2871 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A1C38D2949C2C3000A2871 /* BoardView.swift */; };
 		03EFA4DB29505911002DAC7B /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 03EFA4DA29505911002DAC7B /* Introspect */; };
+		03EFA4DD29505EAB002DAC7B /* View+AlertTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EFA4DC29505EAB002DAC7B /* View+AlertTextField.swift */; };
 		03FD6327294AF278004C0A51 /* BoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6326294AF278004C0A51 /* BoardListView.swift */; };
 		03FD6329294AFFAE004C0A51 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FD6328294AFFAE004C0A51 /* CardView.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		03A1C3892949BB78000A2871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		03A1C38A2949BEFC000A2871 /* Board+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Board+Stub.swift"; sourceTree = "<group>"; };
 		03A1C38D2949C2C3000A2871 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		03EFA4DC29505EAB002DAC7B /* View+AlertTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AlertTextField.swift"; sourceTree = "<group>"; };
 		03FD6326294AF278004C0A51 /* BoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardListView.swift; sourceTree = "<group>"; };
 		03FD6328294AFFAE004C0A51 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 				03A1C38D2949C2C3000A2871 /* BoardView.swift */,
 				03FD6326294AF278004C0A51 /* BoardListView.swift */,
 				03FD6328294AFFAE004C0A51 /* CardView.swift */,
+				03EFA4DC29505EAB002DAC7B /* View+AlertTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				03FD6327294AF278004C0A51 /* BoardListView.swift in Sources */,
 				03A1C38629485E51000A2871 /* BoardList.swift in Sources */,
 				03FD6329294AFFAE004C0A51 /* CardView.swift in Sources */,
+				03EFA4DD29505EAB002DAC7B /* View+AlertTextField.swift in Sources */,
 				03A1C37529485CDB000A2871 /* TrelloCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

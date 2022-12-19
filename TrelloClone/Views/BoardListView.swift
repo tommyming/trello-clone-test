@@ -23,7 +23,7 @@ struct BoardListView: View {
                 .frame(maxHeight: listHeight)
             
             Button("+ Add card") {
-                
+                handleAddCard()
             }
             .padding(.horizontal)
             .frame(maxWidth: .infinity, alignment: .center)
@@ -72,6 +72,15 @@ struct BoardListView: View {
                 listHeight = $0.contentSize.height
             }
         }
+    }
+    
+    private func handleAddCard() {
+        presentAlertTextField(
+            title: "Add card to \(boardList.name)") { text in
+                guard let text, !text.isEmpty else { return }
+                
+                boardList.addNewCardWithContent(text)
+            }
     }
 }
 
